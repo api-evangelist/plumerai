@@ -1,0 +1,33 @@
+generated: '2026-07-20'
+method: searched
+source: https://pypi.org/ (larq.dev open-source libraries maintained by Plumerai)
+packages:
+- language: python
+  registry: pypi
+  name: larq
+  url: https://pypi.org/project/larq/
+  homepage: https://larq.dev/
+  install: pip install larq
+  description: Open-source library for training Binarized Neural Networks (BNNs), built by Plumerai.
+  official: true
+- language: python
+  registry: pypi
+  name: larq-compute-engine
+  url: https://pypi.org/project/larq-compute-engine/
+  homepage: https://larq.dev/
+  install: pip install larq-compute-engine
+  description: Highly optimized inference engine for binarized neural networks (Plumerai / Larq).
+  official: true
+- language: python
+  registry: pypi
+  name: larq-zoo
+  url: https://pypi.org/project/larq-zoo/
+  homepage: https://larq.dev/
+  install: pip install larq-zoo
+  description: Reference implementations of popular Binarized Neural Networks (Plumerai / Larq).
+  official: true
+notes: >-
+  Plumerai's commercial Video Intelligence / Inference Engine SDKs (C++, C, Python, Rust, Java)
+  are documented at https://docs.plumerai.com but are distributed under commercial license, not
+  via public package registries. The larq.dev libraries above are Plumerai's first-party
+  open-source projects and are the only publicly registered packages.

@@ -1,0 +1,26 @@
+# Plumerai
+
+> Plumerai builds AI software for intelligent cameras, combining tiny on-device edge AI models with cloud Vision Language Models (VLMs). Products include person/vehicle/animal/package detection, Familiar Face Identification, cross-camera Re-Identification, noise-robust motion detection, VLM-based video search and custom AI notifications, plus the Plumerai Inference Engine — a deep-learning model compiler and runtime optimized for CPU inference on Arm Cortex-M / Cortex-A, RISC-V and x86_64. Plumerai exposes SDKs (C++, C, Python, Rust, Java) rather than a hosted REST API; the same unified API runs identically from microcontrollers to servers.
+
+## Documentation
+- [Documentation](https://docs.plumerai.com): Product and SDK documentation for Video Intelligence and the Inference Engine
+- [C++ API reference](https://docs.plumerai.com/video_intelligence/cpp/): Video Intelligence C++ SDK
+- [Python API reference](https://docs.plumerai.com/video_intelligence/python/): Video Intelligence Python SDK
+- [Rust API reference](https://docs.plumerai.com/video_intelligence/rust/): Video Intelligence Rust SDK
+- [Integration checklist](https://docs.plumerai.com/video_intelligence/integration_checklist/): Where new integrations should start
+
+## Open-source libraries
+- [larq](https://pypi.org/project/larq/): Training library for Binarized Neural Networks (pip install larq)
+- [larq-compute-engine](https://pypi.org/project/larq-compute-engine/): Optimized BNN inference engine (pip install larq-compute-engine)
+- [larq-zoo](https://pypi.org/project/larq-zoo/): Reference BNN implementations (pip install larq-zoo)
+- [Larq GitHub](https://github.com/larq): Open-source BNN ecosystem maintained by Plumerai
+- [larq.dev](https://larq.dev/): Larq ecosystem home
+
+## Company
+- [Website](https://plumerai.com/): Company home
+- [Blog](https://blog.plumerai.com): Engineering and product blog
+- [Contact](https://www.plumerai.com/contact_us): Contact / support
+- [Careers](https://jobs.ashbyhq.com/plumerai): Open roles
+
+## Notes
+- No hosted REST/HTTP API, OpenAPI spec, or public /.well-known discovery surface is published; integration is via the on-device/server SDKs.
